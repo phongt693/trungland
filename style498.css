@@ -1,0 +1,17 @@
+.hotlinedns .mypage-alo-phone {
+    bottom: inherit;
+    top: auto;
+    bottom: auto;
+}
+
+.hotlinedns .mypage-alo-phone.vertical_top {
+    top: 50px;
+}
+
+.hotlinedns .mypage-alo-phone.vertical_middle {
+    top: 50%;
+}
+
+.hotlinedns .mypage-alo-phone.vertical_bottom {
+    bottom: 0;
+}

@@ -1,0 +1,69 @@
+div.selectbox-wrapper {
+  position:absolute;
+  z-index:3000;
+  /*width:255px;*/
+  width:100%;
+  margin-left:0px;
+  padding:0px;
+  text-align:left;
+  max-height:400px;
+  overflow:auto;
+  background:#0066B3;
+  z-index:1000;
+  color:#fff;
+  font-size:13px;
+}
+div.selectbox-wrapper ul {
+  list-style-type:none;
+  margin:0px;
+  padding:0px;
+}
+div.selectbox-wrapper ul li.selected { 
+  background-color: #F4811F;
+  color:#fff;
+}
+div.selectbox-wrapper ul li.current { 
+  background-color:#FFA953;
+  color:#fff;
+}
+div.selectbox-wrapper ul li {
+  list-style-type:none;
+  display:block;
+  margin:2px;
+  padding:5px 8px 5px 12px;
+  cursor:pointer;
+  /*background:#F8F8F8;*/
+}
+.selectbox{
+  	padding-left:12px;
+  	/*display : block;*/
+  	text-align:left;   
+  	/*cursor: pointer;*/
+  	border:none;
+  	color:#fff;
+  	/*height:36px;*/
+  	font-size:13px; 
+	-webkit-appearance: none;
+	-webkit-border-radius:0px;   
+	outline: none;
+	overflow: hidden;
+	background:url(../../Images/combo_arrow.png) no-repeat right 0;
+    cursor: pointer;
+}
+.selectbox:hover
+{
+	background-position:right -32px;	
+}
+.search_location_cb .selectbox{
+	width:100% !important;
+	/*background: #00AEEF;*/	
+    height: 32px;
+}
+.search_location_cb .selectbox-wrapper{
+	width:100% ;	
+}
+.search_location_cb{
+	margin-top:15px;
+	margin-bottom: 15px;
+}
+

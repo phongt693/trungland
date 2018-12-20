@@ -1,0 +1,104 @@
+﻿@media only screen and (min-width : 960px) and (max-width : 1199px){
+.home_project_carousel  .carousel-control {
+	top:19%;
+}
+nav .menu_item {
+	font-size: 13px;
+}
+.sub_menu_bg
+{
+    height: 40px;
+}
+.sub_menu_bg a{
+    margin: 10px 16px;
+    font-size: 14px;
+}
+.page_title{
+	line-height:35px;
+}
+.info_hotline{
+	font-size:12px;
+	margin-top:7px;
+	line-height: 14px;
+}
+.news_title {
+    font-size: 14px;
+    margin-top: 8px;
+    line-height: 18px;
+}
+.news_content
+{
+    margin-top: 8px;
+	max-height:56px;
+	overflow:hidden;
+	font-size: 13px;
+    line-height: 18px;
+}
+.support_item_title{
+	font-size:12px;
+}
+.support_item span{
+	font-size:12px;
+}
+.support_item a{
+	margin-bottom:30px;
+}
+.home_slider{
+	margin-top:-3%;
+}
+.theme-default .nivo-directionNav a
+{
+    margin-top: 38px !important;
+}
+.nivo-caption
+{
+    width: 90% !important;
+	top:52% !important;
+}
+.phone_support {
+	float:left;
+	width:100%;
+	margin: 0 0 0 30px;
+}
+.split_bar_project{
+	margin-top:9px;
+}
+.project_location{
+
+	margin-top: 5px;
+}
+.project_price{
+
+	margin-top: 5px;
+}
+.project_content{
+	margin-top:5px;
+}
+.news_item_title {
+	height: 60px;
+}
+.project_item_title{
+	font-size:13px;
+}
+.effect7 .gallery_info{
+	transform: translateY(0);
+	-moz-transform: translateY(0);
+	-webkit-transform: translateY(0);
+	font-size:12px;
+}
+.effect7 .gallery_title, .effect7 p{
+	transform: translateX(0);
+	-moz-transform: translateX(0);
+	-webkit-transform: translateX(0);
+	font-size:12px;
+}
+.effect7 .readmore_btn{
+	transform: scale(1);
+	-moz-transform: scale(1);
+	/*margin-top:5px;*/
+}
+    .to_top_btn{
+	    right:12px;
+	    bottom:12px;
+    }
+}
